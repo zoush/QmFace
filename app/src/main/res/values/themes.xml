@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseThemeDark" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="SettingThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/backstage_bg_vertical</item>
+        <item name="md_color_button_text">@color/white</item>
+    </style>
+</resources>

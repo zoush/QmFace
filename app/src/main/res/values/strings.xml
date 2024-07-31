@@ -1,0 +1,218 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Demo</string>
+
+    <!-- common -->
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <!-- 预览界面 -->
+    <string name="call_button">call Button</string>
+    <string name="qr_button">qr Button</string>
+    <string name="qr_background">qr background</string>
+    <string name="authentication_result_image">Authentication Result Image</string>
+    <string name="temperature_celsius">%1$s℃</string>
+    <string name="face_temperature">人脸温度: %1$.1f℃</string>
+    <string name="open_door_success">开门成功</string>
+    <string name="welcome">欢迎您的到来</string>
+    <string name="verify_failed">认证失败</string>
+    <string name="please_try_again_or_contact_manager">请重试或联系管理人员</string>
+    <string name="info_overdue">信息过期</string>
+    <string name="please_contact_manager_to_modify_permission">请联系管理人员修改权限</string>
+
+    <!-- 拨号界面 -->
+    <string name="phone_input_hint">请输入</string>
+    <string name="phone_outdoor_call_indoor_tip">请输入房间号(101–99999)</string>
+    <string name="phone_call_manage_tip">点击左下角按钮呼叫管理中心</string>
+    <string name="str_go_back">go back</string>
+    <string name="str_input_window">input window</string>
+    <string name="button1" tools:ignore="Typos">button1</string>
+    <string name="button2">button2</string>
+    <string name="button3">button3</string>
+    <string name="button4">button4</string>
+    <string name="button5">button5</string>
+    <string name="button6">button6</string>
+    <string name="button7">button7</string>
+    <string name="button8">button8</string>
+    <string name="button9">button9</string>
+    <string name="button_sharp">buttonSharp</string>
+    <string name="button0">button0</string>
+    <string name="button_delete">buttonDelete</string>
+    <string name="call_manager">callManager</string>
+    <string name="call_indoor">callIndoor</string>
+
+    <!-- 通话界面 -->
+    <string name="calling_image">calling image</string>
+    <string name="hang_up">hang up</string>
+    <string name="calling_manager">正在呼叫管理中心…</string>
+    <string name="talking_manager">与管理中心通话中…</string>
+    <string name="calling_indoor">正在呼叫%1$s…</string>
+    <string name="talking_indoor">与%1$s通话中…</string>
+    <string name="talk_over">通话结束</string>
+    <string name="cancel_call">取消呼叫</string>
+    <string name="call_failed">呼叫失败</string>
+    <string name="device_on_call">设备正在通话中</string>
+    <string name="talk_overtime">通话超时</string>
+    <string name="called_reject">对方拒接</string>
+    <string name="called_no_answer">对方无人接听</string>
+    <string name="called_hangup">对方已挂断</string>
+
+    <!-- 配置菜单 -->
+    <string name="setting_menu">配置菜单</string>
+    <string name="setting_ethernet">配置有线网络</string>
+    <string name="setting_personnel">人员管理</string>
+    <string name="setting_system">系统配置</string>
+    <string name="setting_thermal">测温配置</string>
+    <string name="setting_device_id">编号配置</string>
+    <string name="setting_capture">人脸抓拍</string>
+    <string name="setting_openDoor">认证联动开门</string>
+    <string name="setting_wakeup">屏幕唤醒</string>
+    <string name="setting_http_api">HTTP接口</string>
+    <string name="setting_identify">人证对比</string>
+    <string name="setting_navigation_bar">导航栏开关</string>
+
+    <!-- 网络配置 -->
+    <string name="ipv4_address">IPv4地址</string>
+    <string name="subnet_mask">子网掩码</string>
+    <string name="default_gateway">默认网关</string>
+    <string name="primary_dns">首选DNS服务器</string>
+    <string name="secondary_dns">备用DNS服务器</string>
+    <string name="please_input_legal_ip_address">请输入合法的IP地址！</string>
+    <string name="please_input_legal_subnet_mask">请输入合法的子网掩码！</string>
+    <string name="please_input_legal_gateway_address">请输入合法的网关地址！</string>
+    <string name="please_input_legal_dns_address">请输入合法的DNS地址！</string>
+
+    <!-- 编号配置 -->
+    <string name="unit_type">设备类型</string>
+    <string name="period_number">期号</string>
+    <string name="building_number">幢号</string>
+    <string name="unit_number">单元号</string>
+    <string name="floor_number">层号</string>
+    <string name="outdoor_index">门口机编号</string>
+    <string name="fence_index">围墙机编号</string>
+    <string name="community_number">小区编号</string>
+    <string name="unit_type_hint">切换设备类型时设备会重启</string>
+    <string name="outdoor_index_hint">0为主门口机，1~16为从门口机，主从门口机切换时设备会重启。</string>
+    <string name="please_input_number_between_1_and_9">请输入1~9之间的数字</string>
+    <string name="please_input_legal_period_number">请输入合法的期号！</string>
+    <string name="please_input_number_between_1_and_999">请输入1~999之间的数字</string>
+    <string name="please_input_legal_building_number">请输入合法的幢号！</string>
+    <string name="please_input_number_between_1_and_99">请输入1~99之间的数字</string>
+    <string name="please_input_legal_unit_number">请输入合法的单元号！</string>
+    <string name="please_input_legal_floor_number">请输入合法的层号！</string>
+    <string name="please_input_number_between_0_and_16">请输入0~16之间的数字</string>
+    <string name="please_input_legal_outdoor_index">请输入合法的门口机编号！</string>
+    <string name="please_input_legal_fence_index">请输入合法的围墙机编号！</string>
+    <string name="please_input_legal_community_number">请输入合法的小区编号！</string>
+    <string name="please_input_1_to_16_numbers_or_letters">请输入1~16位字母或数字</string>
+    <string name="please_input_number_between_minus_10_and_10_except_0">请输入-10~10(不包括0)之间的数字</string>
+    <string-array name="unit_type">
+        <item>门口机</item>
+        <item>围墙机</item>
+    </string-array>
+
+    <!-- 系统配置 -->
+    <string name="setting_basic_reset">恢复默认参数</string>
+    <string name="setting_full_reset">恢复出厂设置</string>
+    <string name="silent_install">静默安装</string>
+    <string name="basic_reset_confirm">确认恢复默认参数吗？恢复过程中设备将会重启。</string>
+    <string name="full_reset_confirm">确认恢复出厂设置吗？恢复过程中设备将会重启。</string>
+    <string name="silent_install_hint">确认执行静默安装吗？安装过程中应用将重启。</string>
+    <string name="silent_install_prepare">请先将新apk放在/sdcard/silentInstall/app-release.apk路径下，然后重试。</string>
+
+    <!-- 人脸抓拍 -->
+    <string name="face_picture">face picture</string>
+
+    <!-- 关于设备 -->
+    <string name="setting_about_device">关于设备</string>
+    <string name="open_source_license">开源代码许可</string>
+
+    <!-- 激活页面 -->
+    <string name="device_starting">设备正在启动中......</string>
+    <string name="input_user_name_hint">请输入用户名</string>
+    <string name="input_password_hint">请输入密码</string>
+    <string name="activate">激活</string>
+    <string name="hikvision_logo">HIKVISION LOGO</string>
+    <string name="username">username</string>
+    <string name="clear_input">clear input</string>
+    <string name="password">password</string>
+    <string name="password_visibility">password visibility</string>
+    <string name="admin">admin</string>
+    <string name="risky_password">风险密码！</string>
+    <string name="please_input_8_to_16_activate_password">请输入8–16位激活密码！</string>
+
+    <!-- 屏幕唤醒 -->
+    <string name="turn_off_screen">熄屏</string>
+    <string name="wake_up_screen">打开</string>
+    <string name="turn_off_confirm">确认关闭屏幕吗？</string>
+
+    <!-- HTTPAPI -->
+    <string name="open_http_api">开启HttpApi接口</string>
+    <string name="close_http_api">关闭HttpApi接口</string>
+    <string name="open_http_api_confirm">已经开启</string>
+
+    <!-- 升级 -->
+    <string name="settings_progress_fragment_progress">%1$d%%</string>
+    <string name="settings_progress_fragment_upgrading">设备升级中…请勿操作设备</string>
+    <string name="settings_device_upgrade_setting_upgrade_reboot">升级成功，即将重启</string>
+    <string name="settings_upgrade_setting_upgrade_failed_and_reboot">升级失败，即将重启</string>
+
+    <!--用户参数-->
+    <string name="config_userId">工号</string>
+    <string name="config_userName">姓名</string>
+    <string name="config_userFace">人脸</string>
+    <string name="config_userFp">指纹</string>
+    <string name="config_userCard">卡号</string>
+    <string name="config_userRight">用户权限</string>
+    <string name="config_userDel">删除用户</string>
+
+    <!--提示语-->
+    <string name="input_please">请录入</string>
+    <string name="input_ok">已录入</string>
+    <string name="input_user_name">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_fp">请将手指放在指纹识别器上</string>
+    <string name="input_card">请在此区域刷卡</string>
+    <string name="input_face">请采集人脸</string>
+    <string name="input_card_hint">请手动输入卡号或刷卡采集</string>
+
+
+    <!-- 用户管理 -->
+    <string name="config_addUser">添加用户</string>
+    <string name="config_cardCollect">卡片采集</string>
+    <string name="config_addCard">添加卡片</string>
+    <string name="config_faceCollect">人脸采集</string>
+    <string name="config_cardManage">卡片管理</string>
+
+    <!--  人证对比  -->
+    <string name="id_card_tip">请将身份证放在感应区</string>
+    <string name="next_step">下一步</string>
+    <string name="authentication_result">对比结果</string>
+    <string name="complete">完成</string>
+    <string name="compare_success">对比成功</string>
+    <string name="compare_fail">对比失败</string>
+
+    <!-- RS485  -->
+    <string name="about_msg">
+Serial Port API sample v1.1\n
+\n
+This program is the sample application provided with project android-serialport-api.\n
+\n
+More information and bug report on [http://code.google.com/p/android-serialport-api]\n
+\n
+Copyright 2010-2011 Cedric Priscal\n
+\n
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at\n
+\n
+http://www.apache.org/licenses/LICENSE-2.0\n
+\n
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.\n</string>
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serialport.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknownreason.</string>
+</resources>
